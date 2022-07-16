@@ -1,0 +1,72 @@
+/*
+    #9EB23B
+    #C7D36F
+    #FCF9C6
+    #E0DECA
+
+*/
+html,body{
+    overflow: hidden
+}
+
+body{
+    background-color: #9EB23B;
+    text-align: center;
+
+}
+
+h1{
+    font-size:3.5vw;
+    font-family: 'Kosugi Maru', sans-serif;
+    display: inline-block;
+    background-color: #FCF9C6;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    
+}
+
+.inbu{
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size:2.5vw;
+    padding: 30px;
+    margin:20px;
+    margin-top:70px;
+    border-style: none;
+    background-color: #C7D36F;
+    border-radius: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+#des{
+    background-color: #E0DECA;
+    margin-top:60px;
+}
+
+p{
+    font-family: 'Kosugi Maru', sans-serif;
+    display: inline-block;
+    font-size:30px;
+    line-height: 2em;
+}
+
+#credit{
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size:1vw;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #E0DECA;
+    border-style: none;
+    transform: translateX(40vw);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Game screen~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#GameCanvas{
+    background-color: aliceblue;
+    width: 100%;
+    height:100%;
+    display: block;
+    margin:auto;
+}
